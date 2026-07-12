@@ -101,7 +101,7 @@ sns.scatterplot(data=df, x= 'area', y= 'rate_per_sqft')
 plt.title("Area vs Price Per Sq Ft")
 plt.xlabel("Area ")
 plt.ylabel("Rate Per Sq Ft")
-plt.savefig("Area_vs_rate.png", dpi=300, bbox_inches="tight")
+plt.savefig("Area_vs_rate.png", dpi=300)
 plt.show()
 
 
